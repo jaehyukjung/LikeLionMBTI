@@ -211,17 +211,18 @@ li{list-style: none;}
 .controls span.prev{right:calc(100% + 50%);}
 .controls span.next{left:calc(100% + 50%);}
 
+
 .wap{
   width: 2000px;
-  height: 300px;
+  height: 400px;
   margin: 0 auto;
-  
+  align-items: center;
 }
 .wap1{
   width: 2000px;
   height: 400px;
   margin: 0 auto;
-  
+  align-items: center;
 }
 .box1{
   float: left;
@@ -250,6 +251,7 @@ li{list-style: none;}
   height: 200px;
   text-align: center;
 }
+
 .jae{
   margin-top: 5px ;
 }
@@ -259,27 +261,26 @@ li{list-style: none;}
   width: 70%;
 }
 .wap2{
-  width: 2000px;
-  height: 300px;
-  margin: 0 auto;
-  margin-left: 100px;
+  width: 450px;
+  height: 650px;
+  margin: 30px;
+  background-color: #f8f8f8;
+  border-radius: 5%;
 }
 .box3{
-  float: left;
-  width: 250px;
-  margin: auto;
-  margin-right: 20px;
+  width: 350px;
+  height: 350px;
+  margin: auto;  
 }
 .box4{
-  float: left;
-  width: 1000px;
-  margin: 50px;
-  margin: auto;
-  
+  width: 430px;
+  height: 300px;
+  margin: 20px auto;
 }
 .univ1{
-  width: 220px;
-  height: 220px;
+  width: 300px;
+  height: 300px;
+  border-radius: 5%;
 }
 .founded{
   font-size: 30px;
@@ -310,47 +311,16 @@ a.check{
     font-size: 1em;
   }
 }
-
-.slide_div{
+table {
   width: 1500px;
-  margin: 0 auto;
-  height: 300px;
+  height: 4700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
-.slider_wrapper{
-  position: relative;
-  width: 1580px;
-  margin: 0 auto;
-  height: 250px;
-  overflow: hidden;
+td {
+  width: 350px;
+  height: 480px;
+  color:black;
+  border-radius: 5px; 
 }
-.slides1{
-  position: absolute;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  left: 0; top: 0;
-  width: 200*13+30*13+'px';
-  height: 250px;
-  transition: left 0.5s ease-out;
-}
-
-.slides1 li{
-  float: left;
-  margin-right: 30px;
-}
-
-.controls1{
-  text-align: center;
-  margin-top: 25px;
-  border-radius: 10%;
-  background :rgba(105, 105, 103, 0.274);
-}
-.controls span{
-  
-  color:rgb(15, 15, 5);
-  font-weight:bold;
-  padding: 10px 20px;
-  margin-top: 10px;
-  
-}
-.controls span.prev1{right:calc(100% + 50%);}
-.controls span.next1{left:calc(100% + 50%);}
